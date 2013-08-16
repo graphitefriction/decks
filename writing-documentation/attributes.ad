@@ -1,0 +1,4 @@
+:backend: dzslides
+:dzslides-style: tomorrow
+:dzslides-transition: fade
+:dzslides-fonts: family=Yanone+Kaffeesatz:400,700,200,300
