@@ -1,3 +1,4 @@
+// asciidoctor -T ../asciidoctor-backends/slim slides.adoc
 = Writing Documentation: Use Cases, Workflows and Obstacles
 Sarah White
 include::attributes.ad[]
