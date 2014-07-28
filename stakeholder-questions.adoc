@@ -1,4 +1,4 @@
-= Stakeholder Questionnairre
+= Stakeholder Questionnaire
 Sarah White <http://twitter.com/carbonfray[@carbonfray]>
 v1.0, Jul 27, 2014, {copyright}
 :copyright: CC BY-SA 2.0
