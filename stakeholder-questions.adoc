@@ -1,5 +1,7 @@
 = Stakeholder Questionnairre
-Sarah White
+Sarah White <http://twitter.com/carbonfray[@carbonfray]>
+v1.0, Jul 27, 2014, {copyright}
+:copyright: CC BY-SA 2.0
 
 . Identify all of the organization's stakeholders
 . Ask them any applicable questions regarding the content's life cycle
