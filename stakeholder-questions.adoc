@@ -69,3 +69,10 @@ If available, I'll also ask to review documents such as:
 * Marketing campaign materials and results
 * User research
 * Analytics
+
+[verse]
+____
+Sarah White | @carbonfray
+v1.0, Jul 27, 2014, CC BY-SA 2.0
+____
+
