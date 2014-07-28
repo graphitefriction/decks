@@ -5,7 +5,7 @@ Sarah White <http://twitter.com/carbonfray[@carbonfray]>
 :linkcss!:
 :docinfo:
 :sectids!:
-:stake: https://github.com/graphitefriction/decks/stakeholder-questions.adoc
+:stake: https://github.com/graphitefriction/decks/blob/master/stakeholder-questions.adoc
 :oscon2013: http://mojavelinux.github.io/decks/docs-workshop/oscon2013/index.html
 
 == {empty}
