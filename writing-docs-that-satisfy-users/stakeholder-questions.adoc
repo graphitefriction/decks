@@ -1,0 +1,69 @@
+= Stakeholder Questionnairre
+Sarah White
+
+. Identify all of the organization's stakeholders
+. Ask them any applicable questions regarding the content's life cycle
+
+== Internal/Organization Stakeholders
+
+These are just a few of the individuals/teams who may take part in the content life cycle and who should be communicated with during the planning and development of the project's content.
+
+* Writers, creators (text, audio, video, etc.)
+* IA
+* UX
+* Metadata, SEO, and analytics
+* Database
+* Publishers (general and for specific channels)
+* Owners
+* Business strategists
+* Brand, messaging, and marketing
+* Community managers
+* Public relations
+* Developers
+* Evangelists
+* Legal
+* Subject matter experts
+* Reviewers, editors, approvers
+
+== Stakeholder Questions
+
+These are some of the general questions I ask the stakeholders involved in a content project.
+
+* Why do you want to create this content?
+* What messages/objectives will this content support?
+* How do you create content (i.e. the content process/life cycle within the organization)?
+* Who will care about this content (internally and externally)?
+* Who will own/is responsible for the birth, life, and death of this content?
+* Who will going to create this content?
+* Who will going to edit this content?
+* Who will going to review this content?
+* Who will going to approve this content?
+* Who will format/style this content?
+* Where will this content be stored within your infrastructure.
+* Who will publish this content?
+* Where will this content be published to (i.e. channels like website, blog, Twitter, LinkedIn, brochures, EPUB, posters, etc.)?
+* Who will maintain this content?
+* Who will archive this content?
+* How will you measure the success of this content?
+* What will this content be linked to?
+* What metadata will be associated with this content?
+* Who will use/consume this content (i.e. who are your users)?
+* What do your users want?
+* How do you know they want this content?
+* Who/what influences your users?
+* Who is competeing for your users?
+* What constraints do we need to consider (time, events, budget, subject matter expertise, infrastructure, competition, etc.)
+
+== Other Internal/Organization Resources
+
+If available, I'll also ask to review documents such as:
+
+* Company/organization values
+* Employee/contribute handbook
+* Process workflow documentation
+* Brand values and strategy
+* Messaging strategy and hierachy
+* Previous content strategies
+* Marketing campaign materials and results
+* User research
+* Analytics
