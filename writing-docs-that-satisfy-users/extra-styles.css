@@ -1,0 +1,12 @@
+<style>
+.listingblock pre {
+  white-space: pre;
+}
+pre code {
+  font-size: 17px;
+}
+  
+pre.literal {
+  font-size: 18px;
+}
+</style>

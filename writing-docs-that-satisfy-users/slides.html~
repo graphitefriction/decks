@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="aspect-16-9">
+<head>
+<meta charset="UTF-8" />
+<meta name="generator" content="Asciidoctor 1.5.0.dev, dzslides backend" />
+<title>Writing that Satisfies Your</title>
+<meta name="author" content="Sarah White" />
+<meta name="copyright" content="CC BY-SA 2.0" />
+<meta name="presdate" content="Jul 24, 2014" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Sansita+One:400" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="./dzslides/themes/style/statement.css" />
+<link rel="stylesheet" href="./dzslides/core/dzslides.css" />
+<link rel="stylesheet" href="./dzslides/themes/transition/none.css" />
+</head>
+<body>
+<section class="title"><h1>Writing <span class="icon impact"><i class="fa fa-book"></i></span> that Satisfies Your <span class="icon impact"><i class="fa fa-users"></i></span></h1><footer><span class="author">Sarah White</span> <span class="email">@carbonfray</span><span class="divider">&nbsp;&middot;&nbsp;</span><span class="author">Asciidoctor</span></footer></section>
+<section><figure><img class="canvas" src="images/princeherbert.png" alt="princeherbert" /><figcaption>Let&#8217;s Write!</figcaption></figure></section>
+
+<section><h2>The Beginning</h2></section>
+
+<section><h2>... before the beginning</h2></section>
+
+<section><h2>... of the beginning</h2></section>
+
+<section><h2>... of the <em>Epic Documentation Adventure!</em></h2></section>
+
+<section><ul class="text-center middle"><li>Ask</li><li>Audit</li><li>Analyze</li></ul></section>
+
+<section class="subject"><h2>Ask...</h2></section>
+
+<section><h2><em>Why</em> are you creating this content?</h2></section>
+
+<section><h2>Who cares?</h2></section>
+
+<section><h2><em><span class="icon"><i class="fa fa-sitemap fa-3x"></i></span></em> Shakespearean Comedies</h2></section>
+
+<section><h2><span class="icon"><i class="fa fa-ban fa-2x"></i></span></h2></section>
+
+<section><h2><em>EVER</em></h2></section>
+
+<section><h2>say</h2></section>
+
+<section><h2><em>“You&#8217;re using it wrong!”</em></h2></section>
+
+<section><h2>It&#8217;s new opportunity!</h2></section>
+
+<section class="subject"><h2>The Audit</h2></section>
+
+<section><h2><em><span class="icon"><i class="fa fa-table fa-3x"></i></span></em><br>The Spreadsheet of Doom</h2></section>
+
+<section class="subject"><h2>Analysis</h2></section>
+
+<section><h2>What are we looking for?</h2></section>
+
+<section><ul class="incremental"><li>Audience</li><li>Workflows</li><li>Usecases</li><li>Traffic jams</li></ul></section>
+
+<section><h2>Can we start writing now?</h2></section>
+
+<section><h2>2 words: <em>Scope Creep</em></h2></section>
+
+<section><h2>The Strategy</h2></section>
+
+<section><ul class="incremental dense"><li>What are we going to write?</li><li>Who&#8217;s going to write it?</li><li>What does that person need?</li><li>Who&#8217;s going to review it?</li><li>What&#8217;s it going to look like?</li><li>Where&#8217;s it going to live?</li><li>When it it going to be published?</li></ul></section>
+
+<section><h2><em>Now?</em></h2></section>
+
+<section><h2>Writing a Tutorial</h2></section>
+
+<section><h2>The Examples</h2></section>
+
+<section><h2>Anatomy</h2></section>
+
+<section><h2>Explicitness</h2></section>
+
+<section><h2>The Boring Factor</h2></section>
+
+<section><h2>The <em>Reality</em> Factor</h2></section>
+
+<section><h2>Make Sure It&#8217;s Correct</h2></section>
+
+<section><h2>The End</h2></section>
+
+<section><h2>The Next Step</h2></section>
+
+<section><h2>The End of the End</h2></section>
+
+<section><h2>Thanks!</h2></section>
+<script src="./dzslides/core/dzslides.js"></script>
+<script src="./dzslides/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>

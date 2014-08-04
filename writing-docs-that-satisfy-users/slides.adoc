@@ -1,4 +1,5 @@
 // asciidoctor -b dzslides -T ../asciidoctor-backends/slim slides.adoc
+// asciidoctor -b dzslides -T ../asciidoctor-backends/slim -a notes -o slides-notes.html slides.adoc
 = Writing Documentation that Satisfies Your Users
 Sarah White <@carbonfray>; Asciidoctor
 v1.1, Jul 27, 2014
@@ -7,11 +8,13 @@ v1.1, Jul 27, 2014
 :figure-caption!:
 :icons: font
 :dots: ...
+:source-highlighter: highlightjs
 :dzslides-style: statement
 :dzslides-aspect: 16-9
 :dzslides-fonts: family=Sansita+One:400
 :dzslides-transition: none
 :dzslides-highlight: default
+:stake: https://github.com/graphitefriction/decks/blob/master/stakeholder-questions.adoc
 
 == !
 
@@ -19,12 +22,16 @@ v1.1, Jul 27, 2014
 .Let's Write!
 image::princeherbert.png[]
 
+[.statement]
 == !
 
-[.text-center.middle]
 The Beginning {dots} before the beginning {dots} of the beginning {dots} of the +++<br>+++_Epic Documentation Adventure!_
 
-////
+ifdef::notes[]
+== !
+
+[.speaker]
+--
 . Evaluate just how big the documentation and the documentation project objectives are
 . Meet the people who will interact with the documentation and use the documentation
 . Make a plan for the documentation
@@ -36,7 +43,8 @@ The Beginning {dots} before the beginning {dots} of the beginning {dots} of the 
 
 I consider documentation any content you create.
 All of the content you create must help the user achieve their goals/solve their problems.
-////
+--
+endif::[]
 
 == !
 
@@ -45,88 +53,97 @@ All of the content you create must help the user achieve their goals/solve their
 * Audit
 * Analyze
 
-[.subject]
-== Ask
+== !
 
-[.text-center.middle]
+[.middle]
+--
+[.lead-in]
+Ask
+
+[.incremental.dense]
 * Internal stakeholders
 * Community members, users, and customers
+--
 
-== !
+== Corporate organization charts are Shakespearean comedies
 
-[.text-center.middle]
-Corporate organization charts are Shakespearean comedies
+[.whisper]
+that lack happy endings. But this is another story {dots}
 
-[.whisper.text-right]
-that lack happy endings. (But this is another story {dots})
+== _Why_ are we creating this content?
 
-== !
+== Who is going to care?
 
-_Why_ are we creating this content?
+[.whisper]
+Resource: {stake}[Stakeholder questionnaire]
 
-== !
+== Meet and listen.
 
-Who is going to care?
-
-[.whisper.text-left]
-Resources: Stakeholder questionnaire
-
-////
-Why are you doing this project?
-What's in your communication ecosystem?
-How does content happen?
-Who are your users and what do they want?
-What are your competitors up to?
-Who else is influencing your users opinions?
-Do current events affect your project?
-How much documentation do I need?
-What's the purpose of your project?
-What's the problem it is trying to solve?
-Who has this problem?
-Who can help solve this problem?
-////
-
-== !
-
-Meet and listen.
-
+ifdef::notes[]
 [.whisper.text-left]
 Resources: User questionnaire
+endif::[]
 
 == !
 
-Do not ever. *EVER*. Tell a user that they're using your tool wrong!
+[.middle]
+--
+[.lead-in]
+Do not ever.
 
+*EVER*. Tell a user that they're using your tool wrong!
+--
+
+[.statement]
 == !
 
 It's a new opportunity to innovate and expand your market.
 
-////
-what are they trying to do with it?
-how are they trying to do it?
-with what are they trying to do it with?
-////
+ifdef::notes[]
+== !
+
+[.speaker]
+--
+* What are they trying to do with it?
+* How are they trying to do it?
+* With what are they trying to do it with?
+--
+endif::[]
 
 [.subject]
 == Audit
 
-////
-.How much documentation do we already have?
-.. README
-.. Manuals (user, technical, processes, audience specific, internal, glossary, index, reference)
-.. Tutorials (new, intermediate, advanced, focused on other applicable audiences)
-.. Code comments
-.. API
-.. Quickstarts
-.. FAQs
-.. Forum/mailing list
-.. IRC logs
-.. Issue tracker
-.. Wiki
-.. Blog posts/news announcements
-.. Training materials/presentations
-.. Videos
-.. Podcasts/Audio recordings
+ifdef::notes[]
+[.whisper.text-left]
+Resource: Content audit spreadsheet
+
+== !
+
+[.speaker]
+--
+. How much documentation do we already have?
+** README
+** Manuals (user, technical, processes, audience specific, internal, glossary, index, reference)
+** Tutorials (new, intermediate, advanced, focused on other applicable audiences)
+** Code comments
+** API
+** Quickstarts
+** FAQs
+** Forum/mailing list
+** IRC logs
+** Issue tracker
+** Wiki
+** Blog posts/news announcements
+** Training materials/presentations
+** Videos
+** Podcasts/Audio recordings
+--
+
+== !
+
+[.speaker]
+--
+[start=2]
 . Where does it live.
 . Who creates it?
 . Who maintains it?
@@ -138,18 +155,11 @@ with what are they trying to do it with?
 . What metadata is it associated with?
 . What is it linked too?
 . Who uses it?
-////
+--
+endif::[]
 
-[.whisper.text-left]
-Resource: Content audit spreadsheet
+== The Spreadsheet of Doom
 
-== !
-
-[.canvas]
-.The Spreadsheet of Doom
-image::spreadsheet-of-doom.png[]
-
-[.subject]
 == Analysis
 
 == What are we looking for?
@@ -162,48 +172,61 @@ image::spreadsheet-of-doom.png[]
 * Usecases
 * Traffic jams
 
-////
+ifdef::notes[]
+== !
+
+[.speaker]
+--
 . Prioritize your biggest audience
 . Prioritize their biggest documentation needs
-////
+--
+endif::[]
 
 == Can we start writing now?
 
+[.whisper]
+No.
+
 == Two words: _Scope Creep_
 
-[.subject]
 == The Strategy
-
-// Stakeholders, Audiences, Formats, Schedules, Locations
-// (dependencies)
 
 == !
 
 [.incremental.dense]
-* What are we going to write?
-* Who's going to write it?
+* What will we write?
+* Who will write it?
 * What does that person need?
-* Who's going to review it?
-* What's it going to look like?
-* Where's it going to live?
-* When is it going to be published?
+* Who will review it?
+* What will it look like?
+* Where will it live?
+* When will it be published?
 
-////
+ifdef::notes[]
+== !
+
+[.speaker]
+--
 . What will help the users who have this problem solve it?
 .. New users: basic component tutorials, getting oriented tutorials, how-to use the tools tutorials
 .. Intermediate users: more advanced tutorials, user manual, case studies, tips and tricks
 . What will help the people who can help solve this problem to share their knowledge?
 .. New developers: basic code overview, glossaries, contributor guide, API docs
-////
+--
+endif::[]
 
 == _Now?_
 
-[.whisper.text-right]
+[.whisper]
 Yes, now.
 
 == Writing a Tutorial
 
-////
+ifdef::notes[]
+== !
+
+[.speaker]
+--
 .General outline
 . Plot each goal like a screenwriter (or a mad scientist {dots})
 . Be brutal and slash the backstory/history/personal commentary
@@ -215,8 +238,12 @@ Yes, now.
 . The arc
 . The conclusion
 . The next goal/stage
-//^
+--
 
+== !
+
+[.speaker]
+--
 .Tutorial outline
 . What are the 1-3 things that will learn or achieve when they complete this tutorial?
 .. Be specific!
@@ -229,99 +256,170 @@ Yes, now.
 . What content is needed to support the examples?
 . What resources should the tutorial link to?
 . What is the next step for the user once they've completed the tutorial?
-////
+--
+endif::[]
 
-== Example Types
+== !
 
-////
+[.middle]
+--
+[.lead-in]
+Example Types
+
+[.incremental.dense]
+* Anatomy
+* Explicit
+* Boring
+* Real
+--
+
+ifdef::notes[]
+== !
+
+[.speaker]
+--
 For tutorials, creating the examples first is one tactic for keeping the tutorial concise and on target.
-////
+--
+endif::[]
 
 == Anatomy
 
-.Anatomy of a basic block quotation
+[.source]
+== Anatomy of a basic block quote
+
+[source,asciidoc]
 ----
 [quote, attribution, citation title and information]
 Quote or excerpt text
 ----
 
-////
+ifdef::notes[]
+== !
+
+[.speaker]
+--
 Clearly define each part of an example, I call these anatomy examples.
 
 Why? Because, at least in the technology sector, words such as type, component, module, style, option, context, attribute, value, key, element, name, tag, etc. are overloaded with ambiguous meanings, misunderstands, and disagreement.
 
 Therefore, saying: ``Assign the optional values to the options list'' can have different meanings for users depending on their background.
-////
+--
+endif::[]
 
 == Explicit
 
+[.source]
+== Block quote example
+
+[source,asciidoc]
 ----
 .After landing the cloaked Klingon bird of prey in Golden Gate park: <1>
 [quote, Captain James T. Kirk, Star Trek IV: The Voyage Home] <2> <3> <4>
 Everybody remember where we parked. <5>
 ----
-<1> Mark lead-in text explaining the context or setting of the quote using a period (`.`). (optional)
-<2> For content that doesn’t require the preservation of line breaks, set `quote` in the first position of the attribute list.
+<1> Mark lead-in text explaining the context or setting of the quote using a period. (optional)
+<2> For content that doesn’t require the preservation of line breaks, set quote in the first position of the attribute list.
 <3> The second position contains who the excerpt is attributed to. (optional)
 <4> Enter additional citation information in the third position. (optional)
 <5> Enter the excerpt or quote text on the line immediately following the attribute list.
 
-////
+ifdef::notes[]
+== !
+
+[.speaker]
+--
 After anatomy examples, I like to include basic examples that are explicitly labeled with callouts.
-////
+--
+endif::[]
 
 == The _Boring_ Factor
 
+[.source]
+== Apostrophe example
+
+[source,asciidoc]
 ----
 Olaf's desk overflowed with heaps of paper, apple cores and squeaky toys.
 We couldn't find his keyboard.
 The state of his desk was replicated, sometimes in triplicate, across all of the werewolves' desks.
 ----
 
-////
+ifdef::notes[]
+== !
+
+[.speaker]
+--
 Users may skim over/not pay attention to examples that follow the same form/function of examples that were created 10 years ago and/or have become a cliche in your industry.
-////
+--
+endif::[]
 
 == The _Reality_ Factor
 
-[.text-center.middle]
---
+[.statement]
+== !
+
 No one sets up such a basic project.
 
-No one uses all those options in the same argument at the same time.
---
+[.statement]
+== !
 
-////
+No one uses all those options in the same argument at the same time.
+
+ifdef::notes[]
+== !
+
+[.speaker]
+--
 Instead, use examples you learned from your users when you met with them.
 This also engages and thanks the community.
-////
+--
+endif::[]
 
 == Make Sure It's Correct
 
-.After landing the cloaked Klingon bird of prey in Golden Gate park:
+== !
+
+[.middle]
+--
+[.lead-in]
+After landing the cloaked Klingon bird of prey in Golden Gate park:
+
 [quote, Captain James T. Kirk, Star Trek IV: The Voyage Home]
 Everybody remember where we parked.
-
-== The End (of the Tutorial)
-
-Revisit what they achieved in the tutorial.
+--
 
 == !
 
+[.middle]
+--
+[.lead-in]
+The End (of the Tutorial)
+
+Revisit what they achieved in the tutorial.
+--
+
+== !
+
+.Help users remember what they learned.
+[.resized]
 image::test.png[]
 
-////
+ifdef::notes[]
+[.speaker]
 One way to help users remember what they just learned is to include short quizzes or exercises.
-////
+endif::[]
 
 == The Next Step
 
-If you don't point your users toward the next lesson and related resources it's like abandoning them on Mount Everest without shoes or shorts.
+[.statement]
+== !
 
-[.whisper.text-right]
+If you don't point your users toward the next lesson and related resources, it's like _abandoning them on Everest without shoes or shorts_.
+
+[.whisper]
 How would you feel?
 
 == The End (of the Presentation)
 
-[.whisper.text-right]
-Visit [] for more resources.
+[.whisper]
+Visit http://graphitefriction.com/decks/[graphitefriction.com/decks] for more resources. +++<br>+++ {copyright}
