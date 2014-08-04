@@ -2,32 +2,35 @@
 Sarah White <http://twitter.com/carbonfray[@carbonfray]>
 :title: Sarah's Content Presentations and Resources
 :description: A collection of HTML 5-based presentation slide decks from my past speaking engagements.
+:keywords: documentation usability, documentation that satisfies users, content strategy for documentation, software documentation, stakeholder questions, documentation stakeholders, content inventory
 :linkcss!:
 :docinfo:
 :sectids!:
+:oscon2014-notes: https://dl.dropboxusercontent.com/u/87925583/oscon-2014-docs-that-satisfy-users-slide-notes.pdf
 :stake: https://github.com/graphitefriction/decks/blob/master/stakeholder-questions.adoc
-:oscon2013: http://mojavelinux.github.io/decks/docs-workshop/oscon2013/index.html
+:oscon2013: https://mojavelinux.github.io/decks/docs-workshop/oscon2013/index.html
+:audit: https://docs.google.com/spreadsheet/pub?key=0AiJpVh8J1lGtdFV2UkhTUVl3b3N5cmpuUUQ5dy14TXc&single=true&gid=0&output=html
 
 == {empty}
 
-OSCON 2014::
-
-  * link:writing-docs-that-satisfy-users/oscon2014/[Writing Documentation that Satisfies Your Users (slideshow)]
-  * PDF of slideshow with speaker notes *Pending*
-
 Denver Open Source User Group, August 2014::
 
-  * Slideshow *Pending*
+  * Slides *Pending*
   * Video *Pending*
+
+OSCON 2014::
+
+  * link:writing-docs-that-satisfy-users/oscon2014/[Writing Documentation that Satisfies Your Users] (Slides)
+  * {oscon2014-notes}[Slides with speaker notes] (PDF)
 
 OSCON 2013::
 
-  * {oscon2013}[Easier Documentation, Simpler Websites and Faster Collaboration (slideshow)]
+  * {oscon2013}[Easier Documentation, Simpler Websites and Faster Collaboration] (Slides)
 
 == Content Resources
 
-Benefits of Documentation::
-Pending
+// Benefits of Documentation::
+// Pending
 
 {stake}[Stakeholder Questionnaire]::
 List of potential stakeholders and general questions to ask them when launching a content development project.
@@ -35,5 +38,5 @@ List of potential stakeholders and general questions to ask them when launching 
 User Questionnaire::
 Pending
 
-Content Audit Spreadsheet::
-Pending
+{audit}[Content Audit Spreadsheet]::
+Website content inventory template.
