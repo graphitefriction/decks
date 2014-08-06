@@ -15,7 +15,9 @@ Sarah White <http://twitter.com/carbonfray[@carbonfray]>
 
 Denver Open Source User Group, August 2014::
 
-  * link:driving-open-source-adoption-with-documentation[Driving Open Source Adoption with Documentation] (Slides)
+  * Pending
+
+// link:driving-open-source-adoption-with-documentation/slides.html[Driving Open Source Adoption with Documentation] (Slides)
 
 OSCON 2014::
 
