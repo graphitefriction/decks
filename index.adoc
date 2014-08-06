@@ -2,7 +2,7 @@
 Sarah White <http://twitter.com/carbonfray[@carbonfray]>
 :title: Sarah's Content Presentations and Resources
 :description: A collection of HTML 5-based presentation slide decks from my past speaking engagements.
-:keywords: documentation usability, documentation that satisfies users, content strategy for documentation, software documentation, stakeholder questions, documentation stakeholders, content inventory
+:keywords: documentation usability, documentation that satisfies users, content strategy for documentation, software documentation, stakeholder questions, documentation stakeholders, content inventory, open source documentation
 :linkcss!:
 :docinfo:
 :sectids!:
@@ -15,8 +15,7 @@ Sarah White <http://twitter.com/carbonfray[@carbonfray]>
 
 Denver Open Source User Group, August 2014::
 
-  * Slides *Pending*
-  * Video *Pending*
+  * link:driving-open-source-adoption-with-documentation[Driving Open Source Adoption with Documentation] (Slides)
 
 OSCON 2014::
 
