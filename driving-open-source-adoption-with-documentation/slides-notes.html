@@ -800,6 +800,9 @@ section {
 }
 </style></head><body><section class="title"><h1>Driving Open Source Adoption with Documentation</h1><footer><span class="author">Sarah White</span> <span class="email">@carbonfray</span><span class="divider">&nbsp;&middot;&nbsp;</span><span class="author">Asciidoctor</span></footer></section><section><figure><img class="canvas" src="images/princeherbert.png" alt="princeherbert" /><figcaption>Let&#8217;s Write!</figcaption></figure></section>
 <section class="statement"><p>The Beginning &#8230; before the beginning &#8230; of the beginning &#8230; of the <br><em>Epic Documentation Adventure!</em></p></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><ol class="arabic"><li>Evaluate just how big the documentation and the documentation project objectives are</li><li>Meet the people who will interact with the documentation and use the documentation</li><li>Make a plan for the documentation<ol class="loweralpha"><li>Brainstorm, set, and prioritize the goals</li><li>Tactics for outlining each goal per audience</li></ol></li><li>Examples<ol class="loweralpha"><li>Make them useful, correct, and not boring</li></ol></li><li>Outline the supporting content</li></ol>
+<p><em>I consider documentation any content you create.
+All of the content you create must help the user achieve their goals/solve their problems.</em></p></div></section>
 <section><ul class="text-center middle"><li>Ask</li><li>Audit</li><li>Analyze</li></ul></section>
 <section><div class="openblock middle"><p class="lead-in">Ask</p>
 <ul class="incremental dense"><li>Internal stakeholders</li><li>Community members, users, and customers</li></ul></div></section>
@@ -810,62 +813,132 @@ section {
 <section><div class="openblock middle"><p class="lead-in">Do not ever.</p>
 <p><strong>EVER</strong>. Tell a user that they&#8217;re using your tool wrong!</p></div></section>
 <section class="statement"><p>It&#8217;s a new opportunity to innovate and expand your market.</p></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>User questions</strong></p>
+<ul><li>What are they trying to do with it?</li><li>How are they trying to do it?</li><li>With what are they trying to do it with?</li></ul></div></section>
 <section class="subject"><h2>Audit</h2></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><ol class="arabic"><li>How much documentation do we already have?<ul><li>README</li><li>Manuals (user, technical, processes, audience specific, internal, glossary, index, reference)</li><li>Tutorials (new, intermediate, advanced, focused on other applicable audiences)</li><li>Code comments</li><li>API</li><li>Quickstarts</li><li>FAQs</li><li>Forum/mailing list</li><li>IRC logs</li><li>Issue tracker</li><li>Wiki</li><li>Blog posts/news announcements</li><li>Training materials/presentations</li><li>Videos</li><li>Podcasts/Audio recordings</li></ul></li></ol></div></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><ol class="arabic" start="2"><li>Where does it live?</li><li>Who creates it?</li><li>Who maintains it?</li><li>Who reviews/approves it?</li><li>Who publishes it?</li><li>Who archives it?</li><li>Is it up-to-date/correct?</li><li>Is its quality (writing/recording/structure/example material) acceptable?</li><li>What metadata is it associated with?</li><li>What is it linked too?</li><li>Who uses it?</li></ol></div></section>
 <section><h2>The Spreadsheet of Doom</h2><p class="whisper text-left">Resource: <a href="https://docs.google.com/spreadsheet/pub?key=0AiJpVh8J1lGtdFV2UkhTUVl3b3N5cmpuUUQ5dy14TXc&amp;single=true&amp;gid=0&amp;output=html">Content audit spreadsheet</a></p></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p>We&#8217;re going to compare the content on the home pages and portions of a tutorial for two projects: Cassandra and Docker.</p>
+<p>Cassandra because I know lots of you in DOSUG are Cassandra users.
+Docker because I&#8217;ve heard a lot of good things about their tutorials.</p>
+<p><em>My company doesn&#8217;t have a partnership with either of these projects.</em></p></div></section>
+<section><div class="openblock speaker"><div class="title">Speaker Notes</div><p><strong>IMPORTANT</strong></p>
+<p>As we walk through the content presented on these slides, let me reiterate:</p>
+<ol class="arabic"><li>No one&#8217;s documentation is perfect</li><li>I&#8217;ve committed every one of the documentation sins I&#8217;ll point out and will commit them again.</li><li>Documentation is a continuing process.</li><li>Documentation is never done.</li><li>Documentation can always be improved.</li><li>Some documentation is better than no documentation.</li><li>Pick one problem or one document and work on improving that content vs. trying to tackle all of your documentation.</li></ol></div></section>
 <section><img class="canvas" src="images/cassandra1a.png" alt="cassandra1a" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Cassandra homepage top</strong></p>
+<ul><li>Messaging hierarchy: The headline on your homepage is your 1 second to tell the reader if they&#8217;ve discover content that will help them solve their problem.<ul><li><em>Welcome to Apache Cassandra</em> How does this #1 message on the Cassandra page help me get oriented? Help me know what Cassandra can do to help me? This is wasted home page real estate and it wastes the users' time. A community/project can&#8217;t say it&#8217;s welcoming, it can only show people it is welcoming&#8212;through IRC, forums, events&#8212;not through headlines.</li></ul></li><li><em>Opening paragraph</em> So&#8230;what kind of database is Cassandra? graph? relational? Telling me it has scalability, etc. doesn&#8217;t mean anything to me if I&#8217;m not yet sure if it&#8217;s the type of database I need.<ul><li><em>Cassandra support&#8230;</em> Support&#8212;as in people? Does it require a service contract?</li><li><em>Video &amp; Slides tabs</em> Generic titles that don&#8217;t compel me in anyway to click on them except that I&#8217;m still trying to figure out what kind of database Cassandra is.</li></ul></li></ul></div></section>
 <section><img class="canvas" src="images/cassandra2a.png" alt="cassandra2a" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Cassandra video tab</strong></p>
+<p>No information telling me what this video is about, why I should watch it, or whether it is current.</p></div></section>
 <section><img class="canvas" src="images/cassandra3a.png" alt="cassandra3a" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Cassandra slides tab</strong></p>
+<p>This slidedeck is from 2012. Is this the most current presentation available? This can cause people to begin to wonder how active the project/community is.</p></div></section>
 <section><img class="canvas" src="images/cassandra4a.png" alt="cassandra4a" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Cassandra homepage, overview section</strong></p>
+<ul><li>Laying out 3-4 key benefits is an excellent way to let users get a quick snapshot of how Cassandra can help them.<ul><li>8 key benefits is a few too many, by the time I get to the last benefit, I&#8217;ve forgotten the first one</li></ul></li></ul>
+<p><em>Your users are busy, tired, and have a manager breathing down their neck, all of which means their memory is shot to hell.</em></p>
+<ul><li>Don&#8217;t make them read a dissertation.</li><li>Don&#8217;t info dump.</li><li>Your content should not be the scene of a digital scavenger hunt.</li></ul></div></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Cassandra homepage, overview section</strong></p>
+<ul><li><em>Proven</em> This section is important, people like to see that a project is already helping other people.
+However, it&#8217;s readability is poor because it has all those links. These two paragraphs would work better as their own section (on par with <em>Overview</em>).</li><li><em>Fault tolerant, decentralized, durable</em> I don&#8217;t see any difference between what these 3 key points are telling me about Cassandra.</li><li><em>You&#8217;re in control</em> Of course I&#8217;m in control, it&#8217;s my life after all. These are throw-away words. Instead, what&#8217;s the awesome benefit Cassandra let&#8217;s me control.</li></ul></div></section>
 <section><img class="canvas" src="images/cassandra5a.png" alt="cassandra5a" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Cassandra homepage, learn more section</strong></p>
+<ul><li>It&#8217;s very important to point users to related resources, places where they can get help, and the next steps they should take, so this section is excellent in the regard.<ul><li><em>On the web</em> I&#8217;d throw away this title, we&#8217;re on the web, there&#8217;s no reason to waste these words. Also, why is the list numbered? Is the wiki the least important thing?</li></ul></li><li><em>Copyright 2009</em> <strong>DANGER</strong> Now I&#8217;m really worried. Is that the last time this information was updated? Is this project dead?</li></ul>
+<p>The little stuff matters. The lapsed copyright combined with the age of the slidedeck really makes me hesitate.
+This project could be dead or poorly maintained. <em>Why should I research it any further?</em></p></div></section>
 <section><img class="fit" src="images/cassandra6.png" alt="cassandra6" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Cassandra getting started wiki page, top</strong></p>
+<ul><li>The getting started link on the homepage leads me to a wiki page (2nd portal). The very different look and feel (aged) of this page versus the homepage makes me wonder about the maturity and maintenance of the project.</li><li><em>Documentation from DataStax</em> This is the first message on the wikipage, only adding to my hesitancy and confusion. What is DataStax? Does Apache no longer support this project? Do I need to get DataStax to get Cassandra? Does Cassandra not work without DataStax? I&#8217;m now concerned that the wiki documentation isn&#8217;t up-to-date/any good and that Cassandra is just a website funneling me to a company/service.</li><li><em>Trying Cassandra in a VM</em> Yes! Get users trying your project as soon as possible. This also tells me what type of people might be helped by Cassandra.</li></ul></div></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Cassandra getting started wiki page, Step 0</strong></p>
+<ul><li><em>Cassandra requires the most stable version of Java 7 you can deploy, preferably the Oracle/Sun JVM.</em> <strong>The most stable version of Java 7</strong>. So Cassandra is delicate? How the <em>heck</em> do I determine what the writers of Cassandra consider <strong>most stable</strong>? How do I figure out which stable version to use? What if I can&#8217;t use Java 7 - have I just wasted all my time reading the homepage and getting to this point?<ul><li><em>Oracle/Sun JVM</em> And the link sends me to the Java 8 download page. So where&#8217;s Java 7? or can I use Java 8? I&#8217;m getting more confused and would definitely be searching for Cassandra alternatives at this point.</li></ul></li></ul></div></section>
 <section><img class="canvas" src="images/cassandra11-java.png" alt="cassandra11 java" /></section>
 <section><img class="fit" src="images/planet1.png" alt="planet1" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Planet Cassandra Intro to 10 min tut pages</strong></p>
+<ul><li>Planet Cassandra is the 3rd portal we encounter while learning Cassandra. So just who is the owner/knowledge keeper of Cassandra? How are Cassandra, the wiki, Planet Cassandra, and DataStax all related? Where am I supposed to really be going to get the best Cassandra information?</li><li><em>Apache Cassandra has become the leading NoSQL platform</em> And we&#8217;ve finally learned that Cassandra is a NoSQL database!</li><li><em>10 Minute Cassandra Walkthrough</em> Yes! Tell readers the time something should take.</li><li>Yes! Offer pathways specific to user types and the key steps the tutorial will take them through</li></ul></div></section>
 <section><img class="fit" src="images/planet2.png" alt="planet2" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Administration walkthrough</strong></p>
+<ul><li><em>What You’ll Learn</em> Yes! Tell the user exactly what they&#8217;ll learn in 1-2 concise, precise sentences.</li><li><em>Step 1 TOUR OF CONFIGURATION FILES</em> Yes! Tell the user what step they&#8217;re on.</li></ul></div></section>
 <section><img class="fit" src="images/planet3.png" alt="planet3" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Administration walkthrough</strong></p>
+<ul><li><em>Next button</em> Yes! Clearly point them to the next step.</li></ul></div></section>
 <section><img class="fit" src="images/planet5.png" alt="planet5" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><ul><li><em>Back button</em> Yes! Also let them return to previous step.</li></ul></div></section>
 <section><img class="fit middle" src="images/docker1.png" alt="docker1" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Docker homepage top</strong></p>
+<ul><li>Clear messaging hierarchy: 1st message says what Docker&#8217;s benefit to you is. 2nd message defines the 2 major groups of users Docker helps.</li></ul></div></section>
 <section><img class="fit middle" src="images/docker2.png" alt="docker2" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Docker homepage, 3 key benefits</strong></p>
+<ul><li>States in just a few clear sentences what Docker can help you with</li></ul></div></section>
 <section><img class="fit middle" src="images/docker4.png" alt="docker4" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Docker - How is it Used?</strong></p>
+<ul><li>This is the equivalent to the <em>Proven</em> section on Cassandra&#8217;s page, but it is much more readable.</li></ul></div></section>
 <section><img class="fit middle" src="images/docker5.png" alt="docker5" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>What is Docker page, top</strong></p>
+<ul><li>Clearly states what the purpose of the video is, who is presenting the material, and how long it is</li></ul></div></section>
 <section><img class="fit middle" src="images/docker6.png" alt="docker6" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Why do * like it? section on What is Docker page</strong></p>
+<ul><li>Clearly directs developers and sysadmins to the benefits most relevant to them</li></ul></div></section>
 <section><img class="fit middle" src="images/docker7.png" alt="docker7" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>How is this different from Virtual Machines? section on What is Docker page</strong></p>
+<ul><li>Gives user a quick picture of what Docker is most related to (VMs) and how it differs)</li><li><em>How is it Used</em> button, for me, I thought this button led to documentation, not the use case pages.
+Clearly state where links/buttons lead, people don&#8217;t like to click on mystery buttons and typically don&#8217;t like it when they lead to unexpected places.</li></ul></div></section>
 <section><img class="fit middle" src="images/docker8.png" alt="docker8" /></section>
 <section><img class="fit middle" src="images/docker9.png" alt="docker9" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Try it page</strong></p>
+<ul><li>Paragraph states what you&#8217;ll learn during the tutorial. I think the content would be more effective if it was broken up into bullet points or steps like the Planet Cassandra page.</li></ul></div></section>
 <section><img class="fit middle" src="images/docker10.png" alt="docker10" /></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p><strong>Start of tutorial</strong></p>
+<ul><li>Like that it shows me how many steps I&#8217;ll be doing (breadcrumbs)</li><li>But what exactly am I supposed to be doing? Tell me exactly what I am supposed to type!</li></ul>
+<p><em>Documentation should be the opposite of a mystery novel. No ambiguity. No coyness. No conflict. Get right to the point.</em></p></div></section>
 <section><h2>Analysis</h2></section>
 <section><h2>What are we looking for?</h2></section>
 <section><ul class="incremental"><li>Audience segments</li><li>Workflows</li><li>Usecases</li><li>Traffic jams</li></ul></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><ol class="arabic"><li>Prioritize your biggest audience</li><li>Prioritize their biggest documentation needs</li></ol></div></section>
 <section><h2>Can we start writing now?</h2><p class="whisper">No.</p></section>
 <section><h2>Two words: <em>Scope Creep</em></h2></section>
 <section><h2>The Strategy</h2></section>
 <section><ul class="incremental dense"><li>What will we write?</li><li>Who will write it?</li><li>What does that person need?</li><li>Who will review it?</li><li>What will it look like?</li><li>Where will it live?</li><li>When will it be published?</li></ul></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><ol class="arabic"><li>What will help the users who have this problem solve it?<ol class="loweralpha"><li>New users: basic component tutorials, getting oriented tutorials, how-to use the tools tutorials</li><li>Intermediate users: more advanced tutorials, user manual, case studies, tips and tricks</li></ol></li><li>What will help the people who can help solve this problem to share their knowledge?<ol class="loweralpha"><li>New developers: basic code overview, glossaries, contributor guide, API docs</li></ol></li></ol></div></section>
 <section><h2><em>Now?</em></h2><p class="whisper">Yes, now.</p></section>
 <section><h2>Writing a Tutorial</h2></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes, general outline</div><ol class="arabic"><li>Plot each goal like a screenwriter (or a mad scientist &#8230;)</li><li>Be brutal and slash the backstory/history/personal commentary</li><li>Get right into the action</li><li>Show, don&#8217;t tell</li><li>Introduce the main characters by their full and proper names (no slang/jargon/lingo)</li><li>Define terms, never assume</li><li>Concisely describe the environment (i.e. get them oriented)</li><li>The arc</li><li>The conclusion</li><li>The next goal/stage</li></ol></div></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes, tutorial outline</div><ol class="arabic"><li>What are the 1-3 things that will learn or achieve when they complete this tutorial?<ol class="loweralpha"><li>Be specific!</li></ol></li><li>Are there prerequisites?<ol class="loweralpha"><li>List previous tutorials/lessons that should be completed.</li></ol></li><li>Are there dependencies?<ol class="loweralpha"><li>Dependencies should be part of the tutorial and/or part of the things they will achieve in completing the tutorials.</li></ol></li><li>What type of example will illustrate each step. (code, console, text, screenshot, video, audio, figure, illustration, etc.)</li><li>What would that example include (input, output, elements from previous tutorials, new materials that need to be introduced, etc.)</li><li>What content is needed to support the examples?</li><li>What resources should the tutorial link to?</li><li>What is the next step for the user once they&#8217;ve completed the tutorial?</li></ol></div></section>
 <section><div class="openblock middle"><p class="lead-in">Example Types</p>
 <ul class="incremental dense"><li>Anatomy</li><li>Explicit</li><li>Boring</li><li>Real</li></ul></div></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p>For tutorials, creating the examples first is one tactic for keeping the tutorial concise and on target.</p></div></section>
 <section><h2>Anatomy</h2></section>
 <section class="source"><h2>Anatomy of a basic block quote</h2><div class="listingblock"><pre class="highlight"><code class="asciidoc">[quote, attribution, citation title and information]
 Quote or excerpt text</code></pre></div></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p>Clearly define each part of an example, I call these anatomy examples.</p>
+<p>Why? Because, at least in the technology sector, words such as type, component, module, style, option, context, attribute, value, key, element, name, tag, etc. are overloaded with ambiguous meanings, misunderstands, and disagreement.</p>
+<p>Therefore, saying: <em>Assign the optional values to the options list</em> can have different meanings for users depending on their background.</p></div></section>
 <section><h2>Explicit</h2></section>
 <section class="source"><h2>Block quote example</h2><div class="listingblock"><pre class="highlight"><code class="asciidoc">.After landing the cloaked Klingon bird of prey in Golden Gate park: <i class="conum" data-value="1"></i><b>(1)</b>
 [quote, Captain James T. Kirk, Star Trek IV: The Voyage Home] <i class="conum" data-value="2"></i><b>(2)</b> <i class="conum" data-value="3"></i><b>(3)</b> <i class="conum" data-value="4"></i><b>(4)</b>
 Everybody remember where we parked. <i class="conum" data-value="5"></i><b>(5)</b></code></pre></div>
 <div class="colist arabic"><table><tr><td><i class="conum" data-value="1"></i><b>1</b></td><td>Mark lead-in text explaining the context or setting of the quote using a period. (optional)</td></tr><tr><td><i class="conum" data-value="2"></i><b>2</b></td><td>For content that doesn’t require the preservation of line breaks, set quote in the first position of the attribute list.</td></tr><tr><td><i class="conum" data-value="3"></i><b>3</b></td><td>The second position contains who the excerpt is attributed to. (optional)</td></tr><tr><td><i class="conum" data-value="4"></i><b>4</b></td><td>Enter additional citation information in the third position. (optional)</td></tr><tr><td><i class="conum" data-value="5"></i><b>5</b></td><td>Enter the excerpt or quote text on the line immediately following the attribute list.</td></tr></table></div></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p>After anatomy examples, I like to include basic examples that are explicitly labeled with callouts.</p></div></section>
 <section><h2>The <em>Boring</em> Factor</h2></section>
 <section class="source"><h2>Apostrophe example</h2><div class="listingblock"><pre class="highlight"><code class="asciidoc">Olaf's desk overflowed with heaps of paper, apple cores +
 and squeaky toys.
 We couldn't find his keyboard.
 The state of his desk was replicated, sometimes in +
 triplicate, across all of the werewolves' desks.</code></pre></div></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p>Users may skim over/not pay attention to examples that follow the same form/function of examples that were created 10 years ago and/or have become a cliche in your industry.</p></div></section>
 <section><h2>The <em>Reality</em> Factor</h2></section>
 <section class="statement"><p>No one sets up such a basic project.</p></section>
 <section class="statement"><p>No one uses all those options in the same argument at the same time.</p></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p>Instead, use examples you learned from your users when you met with them.
+This also engages and thanks the community.</p></div></section>
 <section><h2>Make Sure It&#8217;s Correct</h2></section>
 <section><div class="openblock middle"><p class="lead-in">After landing the cloaked Klingon bird of prey in Golden Gate park:</p>
 <blockquote><p>Everybody remember where we parked.</p><em>Star Trek IV: The Voyage Home</em><br /><cite>Captain James T. Kirk</cite></blockquote></div></section>
 <section><div class="openblock middle"><p class="lead-in">The End (of the Tutorial)</p>
 <p>Revisit what they achieved in the tutorial.</p></div></section>
 <section><figure><img class="resized" src="images/test.png" alt="test" /><figcaption>Help users remember what they learned.</figcaption></figure></section>
+<section><div class="openblock speaker"><div class="title">Speaker notes</div><p>One way to help users remember what they just learned is to include short quizzes or exercises.</p></div></section>
 <section><h2>The Next Step</h2></section>
 <section class="statement"><p>If you don&#8217;t point your users toward the next lesson and related resources, it&#8217;s like <em>abandoning them on Everest without shoes or shorts</em>.</p>
 <p class="whisper">How would you feel?</p></section>
