@@ -16,6 +16,7 @@ v1.2, August 5, 2014
 :dzslides-transition: none
 :dzslides-highlight: default
 :stake: https://github.com/graphitefriction/decks/blob/master/stakeholder-questions.adoc
+:doom: https://docs.google.com/spreadsheet/pub?key=0AiJpVh8J1lGtdFV2UkhTUVl3b3N5cmpuUUQ5dy14TXc&single=true&gid=0&output=html
 
 == !
 
@@ -32,6 +33,7 @@ ifdef::notes[]
 == !
 
 [.speaker]
+.Speaker notes
 --
 . Evaluate just how big the documentation and the documentation project objectives are
 . Meet the people who will interact with the documentation and use the documentation
@@ -41,9 +43,10 @@ ifdef::notes[]
 . Examples
 .. Make them useful, correct, and not boring
 . Outline the supporting content
+// ^
 
-I consider documentation any content you create.
-All of the content you create must help the user achieve their goals/solve their problems.
+_I consider documentation any content you create.
+All of the content you create must help the user achieve their goals/solve their problems._
 --
 endif::[]
 
@@ -80,10 +83,12 @@ Resource: {stake}[Stakeholder questionnaire]
 
 == Meet and listen.
 
+////
 ifdef::notes[]
 [.whisper.text-left]
 Resources: User questionnaire
 endif::[]
+////
 
 == !
 
@@ -104,7 +109,10 @@ ifdef::notes[]
 == !
 
 [.speaker]
+.Speaker notes
 --
+*User questions*
+
 * What are they trying to do with it?
 * How are they trying to do it?
 * With what are they trying to do it with?
@@ -115,12 +123,10 @@ endif::[]
 == Audit
 
 ifdef::notes[]
-[.whisper.text-left]
-Resource: Content audit spreadsheet
-
 == !
 
 [.speaker]
+.Speaker notes
 --
 . How much documentation do we already have?
 ** README
@@ -143,6 +149,7 @@ Resource: Content audit spreadsheet
 == !
 
 [.speaker]
+.Speaker notes
 --
 [start=2]
 . Where does it live?
@@ -161,42 +168,193 @@ endif::[]
 
 == The Spreadsheet of Doom
 
+[.whisper.text-left]
+Resource: {doom}[Content audit spreadsheet]
+
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+We're going to compare the content on the home pages and portions of a tutorial for two projects: Cassandra and Docker.
+
+Cassandra because I know lots of you in DOSUG are Cassandra users.
+Docker because I've heard a lot of good things about their tutorials.
+
+_My company doesn't have a partnership with either of these projects._
+--
+== !
+
+[.speaker]
+.Speaker Notes
+--
+*IMPORTANT*
+
+As we walk through the content presented on these slides, let me reiterate:
+
+. No one's documentation is perfect
+. I've committed every one of the documentation sins I'll point out and will commit them again.
+. Documentation is a continuing process.
+. Documentation is never done.
+. Documentation can always be improved.
+. Some documentation is better than no documentation.
+. Pick one problem or one document and work on improving that content vs. trying to tackle all of your documentation.
+--
+endif::[]
+
 == !
 
 [.canvas]
 image::cassandra1a.png[]
+
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Cassandra homepage top*
+
+* Messaging hierarchy: The headline on your homepage is your 1 second to tell the reader if they've discover content that will help them solve their problem.
+** _Welcome to Apache Cassandra_ How does this #1 message on the Cassandra page help me get oriented? Help me know what Cassandra can do to help me? This is wasted home page real estate and it wastes the users' time. A community/project can't say it's welcoming, it can only show people it is welcoming--through IRC, forums, events--not through headlines.
+* _Opening paragraph_ So...what kind of database is Cassandra? graph? relational? Telling me it has scalability, etc. doesn't mean anything to me if I'm not yet sure if it's the type of database I need.
+** _Cassandra support..._ Support--as in people? Does it require a service contract?
+** _Video & Slides tabs_ Generic titles that don't compel me in anyway to click on them except that I'm still trying to figure out what kind of database Cassandra is.
+--
+endif::[]
 
 == !
 
 [.canvas]
 image::cassandra2a.png[]
 
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Cassandra video tab*
+
+No information telling me what this video is about, why I should watch it, or whether it is current.
+--
+endif::[]
+
 == !
 
 [.canvas]
 image::cassandra3a.png[]
+
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Cassandra slides tab*
+
+This slidedeck is from 2012. Is this the most current presentation available? This can cause people to begin to wonder how active the project/community is.
+--
+endif::[]
 
 == !
 
 [.canvas]
 image::cassandra4a.png[]
 
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Cassandra homepage, overview section*
+
+* Laying out 3-4 key benefits is an excellent way to let users get a quick snapshot of how Cassandra can help them.
+** 8 key benefits is a few too many, by the time I get to the last benefit, I've forgotten the first one
+//^
+
+_Your users are busy, tired, and have a manager breathing down their neck, all of which means their memory is shot to hell._
+
+* Don't make them read a dissertation.
+* Don't info dump.
+* Your content should not be the scene of a digital scavenger hunt.
+--
+
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Cassandra homepage, overview section*
+
+* _Proven_ This section is important, people like to see that a project is already helping other people.
+However, it's readability is poor because it has all those links. These two paragraphs would work better as their own section (on par with _Overview_).
+* _Fault tolerant, decentralized, durable_ I don't see any difference between what these 3 key points are telling me about Cassandra.
+* _You're in control_ Of course I'm in control, it's my life after all. These are throw-away words. Instead, what's the awesome benefit Cassandra let's me control.
+--
+endif::[]
+
 == !
 
 [.canvas]
 image::cassandra5a.png[]
+
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Cassandra homepage, learn more section*
+
+* It's very important to point users to related resources, places where they can get help, and the next steps they should take, so this section is excellent in the regard.
+** _On the web_ I'd throw away this title, we're on the web, there's no reason to waste these words. Also, why is the list numbered? Is the wiki the least important thing?
+* _Copyright 2009_ *DANGER* Now I'm really worried. Is that the last time this information was updated? Is this project dead?
+// ^
+
+The little stuff matters. The lapsed copyright combined with the age of the slidedeck really makes me hesitate.
+This project could be dead or poorly maintained. _Why should I research it any further?_
+--
+endif::[]
 
 == !
 
 [.fit]
 image::cassandra6.png[]
 
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Cassandra getting started wiki page, top*
+
+* The getting started link on the homepage leads me to a wiki page (2nd portal). The very different look and feel (aged) of this page versus the homepage makes me wonder about the maturity and maintenance of the project.
+* _Documentation from DataStax_ This is the first message on the wikipage, only adding to my hesitancy and confusion. What is DataStax? Does Apache no longer support this project? Do I need to get DataStax to get Cassandra? Does Cassandra not work without DataStax? I'm now concerned that the wiki documentation isn't up-to-date/any good and that Cassandra is just a website funneling me to a company/service.
+* _Trying Cassandra in a VM_ Yes! Get users trying your project as soon as possible. This also tells me what type of people might be helped by Cassandra.
+--
+
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Cassandra getting started wiki page, Step 0*
+
+* _Cassandra requires the most stable version of Java 7 you can deploy, preferably the Oracle/Sun JVM._ *The most stable version of Java 7*. So Cassandra is delicate? How the _heck_ do I determine what the writers of Cassandra consider *most stable*? How do I figure out which stable version to use? What if I can't use Java 7 - have I just wasted all my time reading the homepage and getting to this point?
+** _Oracle/Sun JVM_ And the link sends me to the Java 8 download page. So where's Java 7? or can I use Java 8? I'm getting more confused and would definitely be searching for Cassandra alternatives at this point.
+--
+endif::[]
 
 == !
 
 [.canvas]
 image::cassandra11-java.png[]
 
+////
 == !
 
 [.fit]
@@ -216,61 +374,199 @@ image::cassandra9.png[]
 
 [.fit]
 image::cassandra10.png[]
+////
 
 == !
 
 [.fit]
 image::planet1.png[]
 
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Planet Cassandra Intro to 10 min tut pages*
+
+* Planet Cassandra is the 3rd portal we encounter while learning Cassandra. So just who is the owner/knowledge keeper of Cassandra? How are Cassandra, the wiki, Planet Cassandra, and DataStax all related? Where am I supposed to really be going to get the best Cassandra information?
+* _Apache Cassandra has become the leading NoSQL platform_ And we've finally learned that Cassandra is a NoSQL database!
+* _10 Minute Cassandra Walkthrough_ Yes! Tell readers the time something should take.
+* Yes! Offer pathways specific to user types and the key steps the tutorial will take them through
+--
+endif::[]
+
 == !
 
 [.fit]
 image::planet2.png[]
+
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Administration walkthrough*
+
+* _What You’ll Learn_ Yes! Tell the user exactly what they'll learn in 1-2 concise, precise sentences.
+* _Step 1 TOUR OF CONFIGURATION FILES_ Yes! Tell the user what step they're on.
+--
+endif::[]
 
 == !
 
 [.fit]
 image::planet3.png[]
 
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Administration walkthrough*
+
+* _Next button_ Yes! Clearly point them to the next step.
+--
+endif::[]
+
 == !
 
 [.fit]
 image::planet5.png[]
+
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+.*Administration walkthrough*
+* _Back button_ Yes! Also let them return to previous step.
+--
+endif::[]
 
 == !
 
 [.fit.middle]
 image::docker1.png[]
 
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Docker homepage top*
+
+* Clear messaging hierarchy: 1st message says what Docker's benefit to you is. 2nd message defines the 2 major groups of users Docker helps.
+--
+endif::[]
+
 == !
 
 [.fit.middle]
 image::docker2.png[]
 
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Docker homepage, 3 key benefits*
+
+* States in just a few clear sentences what Docker can help you with
+--
+endif::[]
+
+////
 == !
 
 [.fit.middle]
 image::docker3.png[]
+
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+
+--
+endif::[]
+////
 
 == !
 
 [.fit.middle]
 image::docker4.png[]
 
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Docker - How is it Used?*
+
+* This is the equivalent to the _Proven_ section on Cassandra's page, but it is much more readable.
+--
+endif::[]
+
 == !
 
 [.fit.middle]
 image::docker5.png[]
+
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*What is Docker page, top*
+
+* Clearly states what the purpose of the video is, who is presenting the material, and how long it is
+--
+endif::[]
 
 == !
 
 [.fit.middle]
 image::docker6.png[]
 
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Why do * like it? section on What is Docker page*
+
+* Clearly directs developers and sysadmins to the benefits most relevant to them
+--
+endif::[]
+
 == !
 
 [.fit.middle]
 image::docker7.png[]
+
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*How is this different from Virtual Machines? section on What is Docker page*
+
+* Gives user a quick picture of what Docker is most related to (VMs) and how it differs)
+* _How is it Used_ button, for me, I thought this button led to documentation, not the use case pages.
+Clearly state where links/buttons lead, people don't like to click on mystery buttons and typically don't like it when they lead to unexpected places.
+--
+endif::[]
 
 == !
 
@@ -282,10 +578,39 @@ image::docker8.png[]
 [.fit.middle]
 image::docker9.png[]
 
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Try it page*
+
+* Paragraph states what you'll learn during the tutorial. I think the content would be more effective if it was broken up into bullet points or steps like the Planet Cassandra page.
+--
+endif::[]
+
 == !
 
 [.fit.middle]
 image::docker10.png[]
+
+ifdef::notes[]
+== !
+
+[.speaker]
+.Speaker notes
+--
+*Start of tutorial*
+
+* Like that it shows me how many steps I'll be doing (breadcrumbs)
+* But what exactly am I supposed to be doing? Tell me exactly what I am supposed to type!
+//^
+
+
+_Documentation should be the opposite of a mystery novel. No ambiguity. No coyness. No conflict. Get right to the point._
+--
+endif::[]
 
 == Analysis
 
@@ -303,6 +628,7 @@ ifdef::notes[]
 == !
 
 [.speaker]
+.Speaker notes
 --
 . Prioritize your biggest audience
 . Prioritize their biggest documentation needs
@@ -333,6 +659,7 @@ ifdef::notes[]
 == !
 
 [.speaker]
+.Speaker notes
 --
 . What will help the users who have this problem solve it?
 .. New users: basic component tutorials, getting oriented tutorials, how-to use the tools tutorials
@@ -353,8 +680,8 @@ ifdef::notes[]
 == !
 
 [.speaker]
+.Speaker notes, general outline
 --
-.General outline
 . Plot each goal like a screenwriter (or a mad scientist {dots})
 . Be brutal and slash the backstory/history/personal commentary
 . Get right into the action
@@ -365,13 +692,14 @@ ifdef::notes[]
 . The arc
 . The conclusion
 . The next goal/stage
+//^
 --
 
 == !
 
 [.speaker]
+.Speaker notes, tutorial outline
 --
-.Tutorial outline
 . What are the 1-3 things that will learn or achieve when they complete this tutorial?
 .. Be specific!
 . Are there prerequisites?
@@ -404,6 +732,7 @@ ifdef::notes[]
 == !
 
 [.speaker]
+.Speaker notes
 --
 For tutorials, creating the examples first is one tactic for keeping the tutorial concise and on target.
 --
@@ -424,12 +753,13 @@ ifdef::notes[]
 == !
 
 [.speaker]
+.Speaker notes
 --
 Clearly define each part of an example, I call these anatomy examples.
 
 Why? Because, at least in the technology sector, words such as type, component, module, style, option, context, attribute, value, key, element, name, tag, etc. are overloaded with ambiguous meanings, misunderstands, and disagreement.
 
-Therefore, saying: ``Assign the optional values to the options list'' can have different meanings for users depending on their background.
+Therefore, saying: _Assign the optional values to the options list_ can have different meanings for users depending on their background.
 --
 endif::[]
 
@@ -454,6 +784,7 @@ ifdef::notes[]
 == !
 
 [.speaker]
+.Speaker notes
 --
 After anatomy examples, I like to include basic examples that are explicitly labeled with callouts.
 --
@@ -466,15 +797,18 @@ endif::[]
 
 [source,asciidoc]
 ----
-Olaf's desk overflowed with heaps of paper, apple cores and squeaky toys.
+Olaf's desk overflowed with heaps of paper, apple cores +
+and squeaky toys.
 We couldn't find his keyboard.
-The state of his desk was replicated, sometimes in triplicate, across all of the werewolves' desks.
+The state of his desk was replicated, sometimes in +
+triplicate, across all of the werewolves' desks.
 ----
 
 ifdef::notes[]
 == !
 
 [.speaker]
+.Speaker notes
 --
 Users may skim over/not pay attention to examples that follow the same form/function of examples that were created 10 years ago and/or have become a cliche in your industry.
 --
@@ -496,6 +830,7 @@ ifdef::notes[]
 == !
 
 [.speaker]
+.Speaker notes
 --
 Instead, use examples you learned from your users when you met with them.
 This also engages and thanks the community.
@@ -532,8 +867,13 @@ Revisit what they achieved in the tutorial.
 image::test.png[]
 
 ifdef::notes[]
+== !
+
 [.speaker]
+.Speaker notes
+--
 One way to help users remember what they just learned is to include short quizzes or exercises.
+--
 endif::[]
 
 == The Next Step
